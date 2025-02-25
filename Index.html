@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Sporting Goods Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Your Sporting Goods Store</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#categories">Product Categories</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our sporting goods store, where we provide top-quality gear for all your favorite sports! Whether you’re a professional athlete or a weekend warrior, we’ve got the equipment you need.</p>
+    </section>
+
+    <section id="categories">
+        <h2>Product Categories</h2>
+        <div class="product-category" id="product-list">
+            <!-- Dynamic Products will be added here -->
+        </div>
+    </section>
+
+    <section id="add-product">
+        <h2>Add a New Product</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="text" id="product-description" placeholder="Product Description" required>
+            <input type="url" id="product-image" placeholder="Image URL" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Feel free to reach out to us at <a href="mailto:support@sportinggoodsstore.com">support@sportinggoodsstore.com</a> or call us at (555) 123-4567.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Sporting Goods Store. All Rights Reserved.</p>
+</footer>
+
+<!-- Link to the external JavaScript file with defer -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
